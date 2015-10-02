@@ -3,17 +3,16 @@ h1 a {
     font-family: 'Lobster';
 }
 
+.big-title {
+    color: #FCA205;
+    font-family: 'Lobster';
+    font-size: 50pt;
+}
+
 .page-header {
     background-color: #ff9400;
     margin-top: 0;
-    padding: 50px 20px 30px 40px;
-}
-
-.big-title {
-    color: #00000;
-    font-family: 'Lobster';
-    font-size: 50pt;
-    
+    padding: 50px 20px 60px 40px;
 }
 
 .breadcrumb {
@@ -49,9 +48,9 @@ h1, h2, h3, h4 {
 
 .top-menu, .top-menu:hover, .top-menu:visited {
     color: #ffffff;
-    float: right;
+    float: left;
     font-size: 20pt;
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .post {
@@ -61,3 +60,5 @@ h1, h2, h3, h4 {
 .post h1 a, .post h1 a:visited {
     color: #000000;
 }
+
+
